@@ -1,1 +1,24 @@
 /* start your css here */
+body{
+    background-color: antiquewhite;
+    margin:10px;
+}
+
+.Details {
+    border-bottom: 1px solid black;
+}
+
+.experience {
+    border-bottom: 1px solid black;
+}
+
+.skills {
+    border-bottom: 1px solid black;
+}
+
+.hobbies {
+    border-bottom: 1px solid black;
+}
+
+a { color:darkblue;
+text-decoration: none;}
