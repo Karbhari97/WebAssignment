@@ -1,1 +1,78 @@
-/* start your css here */
+body {
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 0px;
+}
+.m {
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  padding: 2px;
+  width: 23px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.li {
+  display: flex;
+}
+.profile2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  display: flex;
+}
+.fixed {
+  position: relative;
+  top: 15px;
+  right: 74px;
+}
+.typo {
+  text-align: center;
+  margin: 0px 250px;
+}
+.bg {
+  margin: 30px 160px;
+  position: relative;
+  right: 70px;
+}
+.para {
+  margin: 30px 300px;
+  font-size: 20px;
+  margin-bottom: 1px;
+}
+
+.video {
+  margin-top: 1px;
+  text-align: center;
+}
+button {
+  margin-left: 10px;
+  margin-top: 25px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 300px;
+}
+.clap{
+  position: relative;
+  bottom: 40px;
+  left: 25px;
+}
+.name2{
+  display: flex;
+  margin-left: 300px;
+  margin-bottom: 300px;
+  position: relative;
+  bottom: 70px;
+}
+.h5{
+  position: relative;
+  bottom: 20px;
+}
