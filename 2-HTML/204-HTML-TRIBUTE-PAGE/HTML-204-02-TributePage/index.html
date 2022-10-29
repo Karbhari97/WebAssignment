@@ -1,12 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .Name {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #firstIcon {
+            margin-right: 30px;
+        }
+
+        #secondIcon {
+            margin-left: 30px;
+
+        }
+
+        .Container {
+            margin: 20px 20px;
+            box-shadow: 0px 0px 10px black;
+
+        }
+
+        .bio {
+            margin-top: 30px;
+            text-align: center;
+            font-weight: bold;
+            margin: 0 30px;
+        }
+
+        .TwiteerHead {
+            text-align: center;
+            margin: 20px 0px;
+        }
+
+        i {
+            color: rgb(21, 162, 218);
+        }
+
+        .roundimg {
+            height: 50px;
+            width: 50px;
+            border-radius: 50px;
+            margin-left: 20px;
+            margin-right: 5px;
+            position: relative;
+            top: 5px;
+        }
+
+        .twt {
+            width: 800px;
+
+            margin: 20px auto;
+            display: flex;
+
+            align-items: center;
+        }
+
+        #h3 {
+            position: relative;
+            top: 10px;
+        }
+
+        #h31 {
+            position: relative;
+            bottom: 10px;
+            margin-right: 5px;
+            font-weight: bolder;
+            color: rgb(98, 94, 94);
+        }
+
+        .verify {
+            height: 30px;
+            width: 30px;
+            position: relative;
+            top: 10px;
+            right: 5px;
+        }
+
+        a {
+            color: rgb(21, 162, 218);
+            text-decoration: none;
+
+        }
+
+        #chimniright {
+            position: relative;
+            left: 550px;
+
+        }
+
+        .hoding {
+            width: 800px;
+            box-shadow: 0px 0px 10px black;
+            margin: 20px auto;
+            height: 1100px;
+            border-radius: 10px;
+
+
+
+            align-items: center;
+        }
+
+        .emoji {
+            margin-left: 20px;
+            padding: 5px;
+            position: relative;
+            bottom: 40px;
+        }
+
+        .beach {
+            text-align: center;
+            position: relative;
+            bottom: 35px;
+        }
+
+        #bech {
+            border-radius: 10px;
+        }
+
+        .date {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 20px;
+            margin-right: 20px;
+            position: relative;
+            bottom: 45px;
+            border-bottom: 1px solid grey;
+            color: grey;
+            font-weight: bolder;
+        }
+
+        .comment {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 20px;
+            margin-right: 400px;
+            position: relative;
+            bottom: 55px;
+            color: rgb(90, 84, 84);
+        }
+
+        .read {
+            text-align: center;
+            border: 1px solid grey;
+            margin: 0px 30px;
+            border-radius: 15px;
+            padding: 10px;
+            font-weight: bolder;
+            color: rgb(20, 121, 209);
+            position: relative;
+            bottom: 50px;
+        }
+
+        #read1 {
+            font-weight: bolder;
+            color: darkblue;
+            padding: 10px;
+        }
+        .photo {
+            text-align: center;
+            margin-top: 20px;
+            color: rgb(49, 47, 47);
+        }
+        .insta {
+            text-align: center;
+            margin-top: 20px;
+            color: rgb(49, 47, 47);
+           
+        }
+        
+    </style>
+
 </head>
+
 <body>
-    
+    <div class="Container">
+
+        <div class="Name">
+            <i class='fab fa-xbox' style='font-size:30px;color:red'></i>
+            <h1>__Virat Kohli__</h1>
+            <i class='fab fa-xbox' style='font-size:30px;color:red'></i>
+        </div>
+
+
+        <div class="bio">
+            <P>
+                Kohli first played for Delhi Under-15 team in October 2002 in the 2002-03 Polly Umrigar Trophy. He
+                became the captain of the team for the 2003-04 Polly Umrigar Trophy. In late 2004, he was selec in
+                the Delhi Under-17 team for the 2003-04 Vijay Merchant Trophy.
+            </P>
+        </div>
+
+        <div class="TwiteerHead">
+            <h2>Tweets <i class='fab fa-twitter' style='font-size:20px'></i></h2>
+
+        </div>
+
+        <div class="hoding">
+            <div class="twt">
+                <div>
+                    <img class="roundimg"
+                        src="https://th.bing.com/th/id/OIP.uMEgyQyAQH8xc547fLOblQHaHa?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                        alt="">
+                </div>
+
+                <div class="Virat">
+                    <h3 id="h3">Virat Kohli <img
+                            src="https://media.istockphoto.com/vectors/profile-verification-check-marks-icons-vector-illustration-vector-id1313547780?k=20&m=1313547780&s=612x612&w=0&h=dpYT_kesPq9p3wHVyXTXdMy71_o-YczCkG0zMrsNfiA="
+                            alt="" class="verify"></i>
+                        <h2>
+                    </h3>
+                    <h4 id="h31">@amvkohli <a href="https://www.instagram.com/virat.kohli/">Follow</a></h4>
+                </div>
+                <div id="chimniright">
+                    <a href="https://twitter.com/imVkohli?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> <i
+                            class='fab fa-twitter' style='font-size:20px'></i></a>
+
+                </div>
+
+
+            </div>
+            <div class="emoji">
+                <i class='fas fa-swimmer' style='font-size:24px'></i>
+                <i class='fas fa-swimmer' style='font-size:24px'></i>
+
+            </div>
+
+            <div class="beach">
+                <img id="bech" height="800px" width="760px"
+                    src="https://images.news18.com/ibnlive/uploads/2022/06/fvdud5nuyaakfvv1-16550408973x2.jpg?impolicy=website&width=510&height=356"
+                    alt="">
+
+            </div>
+
+            <div class="date">
+                <p>5:53 PM Jun 12, 2022</p>
+                <i class="fa fa-exclamation-circle" style="font-size:24px"></i>
+            </div>
+            <div class="comment">
+                <i class="fa fa-heart" style="font-size:24px;color:red"></i>
+                <h4>301.1K</h4>
+                <i class="fa fa-comment" style="font-size:24px"></i>
+                <h4>Replay</h4>
+                <i class="material-icons" style="font-size:36px">link</i>
+                <h4>Copy link</h4>
+            </div>
+
+            <div class="read">
+                <a id="read1" href="#">Read 5.1K Replies</a>
+            </div>
+
+
+           
+            
+
+
+
+
+
+
+        </div>
+
+        <div class="photo">
+            <h1>Images <i class='fas fa-image' style='font-size:24px'></i></h1>
+
+            <img src="https://espbr.com/wp-content/uploads/2019/12/virat-kohli-pti.jpg" alt="" height="800px" width="760px">
+        </div>
+
+
+        <div class="insta">
+           
+            <h1>instagram <i class='fas fa-image' style='font-size:24px'></i></h1>
+            <div>
+
+                <div class="instahead">
+                    <h3>Virat Kohli & Puma</h3>
+
+                </div>
+
+            <img src="https://espbr.com/wp-content/uploads/2019/12/virat-kohli-pti.jpg" alt="" height="600px" width="400px">
+            </div>
+        </div>
+
+
+
+    </div>
+
 </body>
+
 </html>
