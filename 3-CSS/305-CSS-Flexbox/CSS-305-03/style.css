@@ -1,1 +1,64 @@
-/* start your styling here  */
+.sedan{
+    background-color: rgb(199, 140, 29);
+    padding: 50px;
+    border-radius: 30px 0px 0px 30px;
+
+
+}
+
+.suvs{
+    background-color: rgb(7, 76, 85);
+    padding: 50px;
+}
+.luxury{
+    background-color: rgb(7, 70, 7);
+    padding: 50px;
+    border-radius: 0px 30px 30px 0px;
+}
+
+h1, p, button {
+    color: white;
+    margin-top: 60px;
+}
+
+i {
+    font-size: 30px;
+    color: white;
+    opacity: 0.6;
+    position: relative;
+    
+ 
+}
+#round{
+    color: black;
+    opacity: 0.5;
+    font-size: 34px;
+}
+.car{
+    display: flex;
+    height: 500px;
+    margin: 20px 20px;
+   
+ 
+    
+    
+}
+button {
+    color: orange;
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+    width: 150px;
+}
+
+.lux{
+    color: rgb(7, 70, 7);
+
+}
+.suv {
+    color:rgb(7, 76, 85) ;
+}
+#caricon{
+    position: relative;
+    right: 24px;
+}
