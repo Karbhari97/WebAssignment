@@ -1,1 +1,22 @@
-/* start your styling here  */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+.back{
+    background-color:rgb(45, 2, 64);
+    padding: 15px;
+}
+.myvoot{
+    font-weight: 900;
+    font-size: 24px;
+}
+body{
+    margin: 0%;
+}
