@@ -1,1 +1,63 @@
-/* start your css here */
+.container {
+  margin: auto;
+  text-align: center;
+}
+.marker {
+  width: 400px;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.red {
+  background: linear-gradient(
+    180deg,
+    rgb(122, 74, 14) 0%,
+    rgb(245, 62, 113) 50%,
+    rgb(162, 27, 27) 100%
+  );
+  box-shadow: 0px 0px 30px 0px rgb(232, 137, 137);
+}
+
+.green {
+  background: linear-gradient(
+    180deg,
+    rgb(74, 122, 14) 0%,
+    rgb(65, 245, 113) 50%,
+    rgb(27, 162, 27) 100%
+  );
+  box-shadow: 0px 0px 30px 0px rgb(130, 227, 130);
+}
+
+.blue {
+  background: linear-gradient(
+    180deg,
+    rgb(14, 74, 122) 0%,
+    rgb(113, 62, 245) 50%,
+    rgb(27, 27, 162) 100%
+  );
+  box-shadow: 0px 0px 30px 0px rgb(108, 108, 234);
+}
+
+.sleev{
+    background-color:  rgba(255, 255, 255,0.5);
+    width: 250px;
+    height: 50px;
+    margin-left: 80px;
+    border-left: 12px double black;
+
+  
+}
+.cap{
+    background: linear-gradient(
+        180deg,
+        rgb(122, 74, 14) 0%,
+        rgb(245, 62, 113) 50%,
+        rgb(162, 27, 27) 100%
+      );
+      
+
+}
+.sleev, .cap {
+    display: inline-block;
+}
