@@ -1,1 +1,226 @@
-/* start your styling here  */
+body{
+    margin: 0%;
+    background:linear-gradient(90deg,rgb(107, 104, 104)20%,rgb(53, 52, 52)50%,rgb(96, 94, 94)80%);
+}
+.container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 360px;
+    width: 680px;
+    text-align: center;
+    margin: 150px auto;
+    
+   
+    
+}
+.box1 {
+  
+  background: linear-gradient(
+    145deg,
+    rgb(223, 213, 80) 0%,
+    rgb(228, 175, 110) 50%,
+    rgb(218, 59, 146) 100%
+  );
+  grid-column: 1 /span 1;
+  grid-row: 1 / span 1;
+  border-left: 10px solid rgb(46, 44, 44);
+  border-top: 10px solid rgb(46, 44, 44);
+  
+  
+}
+
+.box2 {
+    
+    background: linear-gradient(
+      145deg,
+      rgb(226, 76, 234) 0%,
+      rgb(230, 66, 200) 50%,
+      rgb(218, 59, 146) 100%
+    );
+    grid-column: 2 /span 3;
+    grid-row: 1 / span 2;
+    border-left: 10px solid rgb(46, 44, 44);
+    border-top: 10px solid rgb(46, 44, 44);
+  }
+
+  .box3 {
+    
+    background: linear-gradient(
+      145deg,
+      rgb(74, 228, 210) 0%,
+      rgb(51, 153, 231) 50%,
+      rgb(130, 17, 223) 100%
+    );
+    grid-column: 5 /span 6;
+    grid-row: 1 / span 1;
+    border-left: 10px solid rgb(46, 44, 44);
+    border-top: 10px solid rgb(46, 44, 44);
+    border-right: 10px solid rgb(46, 44, 44);
+    
+   
+  }
+
+  .box4 {
+    
+    background: linear-gradient(
+      145deg,
+      rgb(223, 213, 80) 0%,
+      rgb(228, 175, 110) 50%,
+      rgb(218, 59, 146) 100%
+    );
+    grid-column: 1 /span 1;
+    grid-row: 2;
+    border-left: 10px solid rgb(46, 44, 44);
+    border-top: 10px solid rgb(46, 44, 44);
+  }
+
+  .box5 {
+
+    background: linear-gradient(
+        145deg,
+        rgb(74, 228, 210) 0%,
+        rgb(51, 153, 231) 50%,
+        rgb(130, 17, 223) 100%
+      );
+    grid-column: 5 /span 5;
+    grid-row: 2;
+    border-left: 10px solid rgb(46, 44, 44);
+    border-top: 10px solid rgb(46, 44, 44);
+    
+    border-right: 10px solid rgb(46, 44, 44);
+  }
+
+  .box6 {
+  
+    background: linear-gradient(
+      145deg,
+      rgb(223, 213, 80) 0%,
+      rgb(228, 175, 110) 50%,
+      rgb(218, 59, 146) 100%
+    );
+    grid-column: 1 /span 1;
+    grid-row: 3 ;
+    border-left: 10px solid rgb(46, 44, 44);
+    border-top: 10px solid rgb(46, 44, 44);
+  }
+
+  .box7 {
+   
+    background: linear-gradient(
+      145deg,
+      rgb(223, 213, 80) 0%,
+      rgb(228, 175, 110) 50%,
+      rgb(218, 59, 146) 100%
+    );
+    grid-column: 2;
+    grid-row:  3;
+    border-left: 10px solid rgb(46, 44, 44);
+    border-top: 10px solid rgb(46, 44, 44);
+  }
+
+  .box8 {
+
+    background: linear-gradient(
+        145deg,
+        rgb(226, 76, 234) 0%,
+        rgb(230, 66, 200) 50%,
+        rgb(218, 59, 146) 100%
+      );
+    grid-column: 3/5;
+    grid-row: 3 / span 4;
+    border-left: 10px solid rgb(46, 44, 44);
+    border-top: 10px solid rgb(46, 44, 44);
+    border-bottom: 10px solid rgb(46, 44, 44);
+  }
+
+  .box9 {
+ 
+    background: linear-gradient(
+      145deg,
+      rgb(223, 213, 80) 0%,
+      rgb(228, 175, 110) 50%,
+      rgb(218, 59, 146) 100%
+    );
+    grid-column:5;
+    grid-row: 3;
+    border-left: 10px solid rgb(46, 44, 44);
+    border-top: 10px solid rgb(46, 44, 44);
+    
+  }
+
+  .box10 {
+   
+    background: linear-gradient(
+      145deg,
+      rgb(223, 213, 80) 0%,
+      rgb(228, 175, 110) 50%,
+      rgb(218, 59, 146) 100%
+    );
+    grid-column: 6;
+    grid-row: 3;
+    border-left: 10px solid rgb(46, 44, 44);
+    border-top: 10px solid rgb(46, 44, 44);
+    border-right: 10px solid rgb(46, 44, 44);
+
+     
+  }
+
+  .box11 {
+ 
+    background: linear-gradient(
+      145deg,
+      rgb(223, 213, 80) 0%,
+      rgb(228, 175, 110) 50%,
+      rgb(218, 59, 146) 100%
+    );
+    grid-column: 1 /span 1;
+    grid-row: 4 / span 5;
+    border-left: 10px solid rgb(46, 44, 44);
+    border-top: 10px solid rgb(46, 44, 44);
+    border-bottom: 10px solid rgb(46, 44, 44);
+  }
+
+  .box12 {
+  
+    background: linear-gradient(
+      145deg,
+      rgb(223, 213, 80) 0%,
+      rgb(228, 175, 110) 60%,
+      rgb(218, 59, 146) 100%
+    );
+    grid-column: 2 /span 1;
+    grid-row: 4 / span 5;
+    border-left: 10px solid rgb(46, 44, 44);
+    border-top: 10px solid rgb(46, 44, 44);
+    border-bottom: 10px solid rgb(46, 44, 44);
+    
+   
+  }
+
+  .box13 {
+   
+    background: linear-gradient(
+      145deg,
+      rgb(223, 213, 80) 0%,
+      rgb(228, 175, 110) 60%,
+      rgb(218, 59, 146) 100%
+    );
+    grid-column: 5;
+    grid-row: 4 / span 5;
+    border-left: 10px solid rgb(46, 44, 44);
+    border-top: 10px solid rgb(46, 44, 44);
+    border-bottom: 10px solid rgb(46, 44, 44);
+  }
+
+  .box14 {
+    background: linear-gradient(
+      145deg,
+      rgb(223, 213, 80) 0%,
+      rgb(228, 175, 110) 50%,
+      rgb(218, 59, 146) 100%
+    );
+    grid-column: 6;
+    grid-row: 4 / span 5;
+    border: 10px solid rgb(46, 44, 44);
+  }
