@@ -4,9 +4,147 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
   </head>
+  <style>
+    html {  
+    height: 100%;  
+    font-size: 100%  
+   }  
+   body {  
+    font: 13px arial;  
+    font-family: sans-serif; 
+    background-color: #e7e4e4;
+   }
+   .cntr_pg {  
+    position: absolute;  
+    top: 40%;  
+    left: 50%;  
+    margin-right: -50%;  
+    transform: translate(-50%, -50%)  
+   }  
+   .logo {  
+        display: 100%;  
+    height: 92px;  
+    width: 272px;  
+    display: block;  
+    margin: auto;  
+   }  
+   .form {  
+    display: block;  
+    margin: auto;  
+   }  
+   .search_bar {  
+        border-radius: 40px;  
+    width: 585px;  
+    margin: auto;  
+    height: 39px;  
+    border: .7px solid #E4E4E4;  
+    background-color: #fff;  
+    box-shadow:0px 1px 4px #E4E4E4;  
+    margin-bottom: 20px;  
+    outline: none;  
+    text-indent: 15px;  
+    border: 2px solid black;
+   }  
+   .search_bar:hover, .search_bar:active {  
+    padding-bottom: 2px;  
+    padding-top: 1px;  
+    margin-top: -1px;  
+    width: 585px;  
+    box-shadow:0px 3px 8px #E4E4E4;  
+    outline: none;  
+    border: 2px solid black;
+   }  
+   .mic {  
+    width: 14px;  
+    height: 20px;  
+    position: relative;  
+    left: 555px;  
+    top: 34px;  
+   }  
+   .submit_buttons {  
+    display: inline-block;  
+    height: 36px;  
+        cursor: pointer;  
+    line-height: 27px;  
+    background-color: #ffffff;  
+    border: 1px solid #f2f2f2;  
+    border-radius: 2px;  
+    color: #302f2f;  
+    cursor: default;  
+    font-family: arial,sans-serif;  
+    font-size: 20px;  
+    font-weight: bold;  
+    margin: 11px 4px;  
+    min-width: 54px;  
+    padding: 0 16px;  
+    text-align: center;  
+   }  
+   .submit_buttons {  
+    position: relative;
+    left: 18%;
+    right: -50%;
+    cursor: pointer; 
+   }  
+   .submit_buttons:hover {  
+    border: .7px solid #d0d0d0;  
+    color: #000;  
+    box-shadow:0px 1px 4px #E4E4E4;  
+   }  
+   .language_links{
+    display: flex;
+    justify-content: center;
+    margin-top: 550px;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+.l_link{
+    margin-right: 7px;
+    text-decoration: none;
+    gap: 5px;
+}
+h3{
+    font-size: 20px;
+    transform: translate(44%, 900%);
+}
+  </style>
   <body>
-    Start your code here
+   
+    <section class="cntr_pg">  
+      <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />  
+      <img class="mic" src="https://upload.wikimedia.org/wikipedia/commons/2/22/Google_microphone_logo.png" alt="" />  
+      <form action="#" method="#" name="searchquery">  
+       <input type="text" name="searchfield" class="search_bar"></input>  
+       <div class="search_buttons">  
+        <button id="geekster" class="submit_buttons" onclick="change()"> Google Search </button>
+        <input class="submit_buttons" type="submit" value="I'm Feeling Lucky" name="feelinglucky"></input>  
+       </div>  
+      </form>  
+     </section>  
+     <div class="language_links">
+      Google offered in:&nbsp;  
+      <a href="#" class="l_link">मराठी</a>
+      <a href="#" class="l_link">हिन्दी</a> 
+      <a href="#"class="l_link" >বাংলা</a>
+      <a href="#"class="l_link" >తెలుగు</a>
+      <a href="#" class="l_link">தமிழ்</a> 
+     </div> 
+     <div class="describe">
+      <h3>🙌Click on google search</h3>
+     </div>
+     <script src="script.js"></script>
+
+     <script>
+      function change(){
+   
+    var h2Refe = document.getElementById("geekster");
+
+    h2Refe.innerText = "Geekster Search";
+}
+     </script>
+
   </body>
 </html>
