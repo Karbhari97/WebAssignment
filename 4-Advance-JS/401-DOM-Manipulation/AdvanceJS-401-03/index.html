@@ -5,8 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body {
+        box-sizing: border-box;
+        margin: 0;
+      }
+      .slide-container{
+        position: relative;
+        width: 100%;
+        border: 2px solid black;
+        
+      }
+      .forward {
+        position: absolute;
+        color: rgba(255, 255, 255, 0.7);
+        background-color: rgba(129, 123, 123, 0.8);
+        cursor: pointer;
+        padding: 8px;
+        top: 45%;
+        border-radius: 20px;
+        left: 10px;
+      }
+
+      .backward {
+        position: absolute;
+        color: rgba(255, 255, 255, 0.6);
+        background-color: rgba(129, 123, 123, 0.6);
+        cursor: pointer;
+        padding: 8px;
+        border-radius: 20px;
+        left: 97.6%;
+        top: 45%;
+        
+
+      }
+      .slide{
+        display: none;
+      }
+    </style>
   </head>
   <body>
-    Start your code here
+    <div class="slide-container">
+      
+      <div class="slide">
+        <img src="https://geeksterrobot.com/wp-content/uploads/2017/03/cropped-shutterstock_369942410.jpg" height="680px" width="100%"alt="">
+      </div>
+
+      <div class="slide">
+        <img src="https://s0.as-img.com/r/the-geekster/facebook_share_image.jpg?bg=ffffff&u=1538104296" alt="" height="680px" width="100%">
+      </div>
+
+      <div class="slide">
+        <img src="https://i.pinimg.com/736x/01/0a/01/010a0180269f532048e60e5779d18c4d.jpg" height="680px" width="100%">
+      </div>
+      
+    </div>
+    <span class="forward" onclick="controller(1)">&#10094</span>
+      <span class="backward" onclick="controller(-1)">&#10095</span>
+
+      <script>
+        let flag=1;
+function controller(x){
+    flag+=x;
+
+    slideshow(flag);
+}
+slideshow(flag);
+function slideshow(num){
+    let slides=document.getElementsByClassName('slide');
+    if (num == slides.length){
+        num=0;
+        flag=0;
+    }
+    if(num==-1){
+        num=slides.length-1;
+        flag=slides.length - 1;
+    }
+    
+      for (let y of slides) {
+        y.style.display = "none";
+      }
+    slides[num].style.display="block"
+}
+      </script>
   </body>
+
+  
 </html>
