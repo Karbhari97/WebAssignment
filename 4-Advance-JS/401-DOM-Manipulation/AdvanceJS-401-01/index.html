@@ -4,9 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>ADVANCEJS-401-0</title>
+    <style>
+      .input-class {
+        margin: 300px 600px auto;
+        height: 40px;
+        width: 180px;
+        border: 2px solid rgb(83, 99, 242);
+        text-align: center;
+      }
+
+      input::placeholder{
+       padding: 50px;
+       color:rgb(83, 99, 242) ;
+      }
+      .text-class{
+   text-align: center;
+        
+      }
+    </style>
+
+    <script>
+      function displaytext(){
+
+        var inputref = document.getElementById("input-text").value
+        var textref = document.getElementById("text-value")
+        textref.innerText=inputref
+
+      }
+    </script>
   </head>
   <body>
-    Start your code here
+
+    <Div>
+      <input type="text" placeholder="entre text" id="input-text" class="input-class" oninput="displaytext()">
+
+      <h3 id="text-value" class="text-class">
+        geekster
+      </h3>
+
+    </Div>
   </body>
 </html>
