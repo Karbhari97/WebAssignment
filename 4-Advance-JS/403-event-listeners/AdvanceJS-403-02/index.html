@@ -1,12 +1,86 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Advance 403-02 Assignment</title>
+   <style>
+    button{
+    border:2px solid rgb(126, 31, 8);
+    height: 6rem;
+    width: 5rem;
+    cursor: pointer;
+}
+.set{
+    border :2px solid black;
+    height:43rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(72, 72, 76);
+    
+}
+   </style>
+
+
   </head>
   <body>
-    Start your code here
+    <div class="set">
+      <button class="w drum">w</button>
+      <button class="a drum">a</button>
+      <button class="s drum">s</button>
+      <button class="d drum">d</button>
+      <button class="j drum">j</button>
+      <button class="k drum">k</button>
+      <button class="l drum">l</button>
+     </div>
+ <script >
+  for(var i=0;i<document.querySelectorAll('.drum').length;i++){ 
+    document.getElementsByClassName('drum')[i].addEventListener('click',function(){
+      var buttontext=this.innerHTML;
+      console.log("key has been clicked");
+      // console.log(buttontext);
+      makesound(buttontext);
+    })
+  }
+    document.addEventListener("keypress",function(e){
+      console.log("key has been pressed")
+      // console.log(e.key);
+      makesound(e.key);
+    })
+    function makesound(buttontext){
+      if(buttontext=='w'){
+          var tom1=new Audio("https://free-sound-effects.net/mp3/02/free-sound-effects-WIND_AND.mp3");
+          tom1.play();
+      }
+      if (buttontext == "a") {
+        var tom2 = new Audio("https://free-sound-effects.net/mp3/02/free-sound-effects-DRUM_DAN.mp3");
+        tom2.play();
+      }
+      if (buttontext == "s") {
+        var tom3 = new Audio("https://free-sound-effects.net/mp3/01/free-sound-effects-AN1A17A6.mp3");
+        tom3.play();
+      }
+      if (buttontext == "d") {
+        var tom4 = new Audio("https://free-sound-effects.net/mp3/01/free-sound-effects-AN3BD7A6.mp3");
+        tom4.play();
+      }
+      if (buttontext == "j") {
+        var snare = new Audio("shttps://free-sound-effects.net/mp3/01/free-sound-effects-AN3BD5A6.mp3");
+        snare.play();
+      }
+      if (buttontext == "k") {
+        var kick = new Audio("https://free-sound-effects.net/mp3/01/free-sound-effects-AN3BC6A6.mp3");
+        kick.play();
+      }
+      if (buttontext == "l") {
+        var crash = new Audio("https://free-sound-effects.net/mp3/01/free-sound-effects-AN3B84A6.mp3");
+        crash.play();
+      }
+    }
+ </script>
   </body>
 </html>
